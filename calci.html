@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./calci.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="icon">
+        <i class="fa-solid fa-calculator"></i>
+      </div>
+      <div class="display">
+        <input type="text" placeholder="0" disabled id="inputBox" value="0" />
+      </div>
+      <div class="row">
+        <button type="button" id="clear" class="opr">AC</button>
+        <button type="button" id="backspace" class="opr">DEL</button>
+        <button type="button" class="opr">%</button>
+        <button type="button" class="opr">/</button>
+      </div>
+      <div class="row">
+        <button type="button" class="num">7</button>
+        <button type="button" class="num">8</button>
+        <button type="button" class="num">9</button>
+        <button type="button" class="opr">*</button>
+      </div>
+      <div class="row">
+        <button type="button" class="num">4</button>
+        <button type="button" class="num">5</button>
+        <button type="button" class="num">6</button>
+        <button type="button" class="opr">+</button>
+      </div>
+      <div class="row">
+        <button type="button" class="num">1</button>
+        <button type="button" class="num">2</button>
+        <button type="button" class="num">3</button>
+        <button type="button" class="opr">-</button>
+      </div>
+      <div class="row">
+        <button type="button"  id="plusMinus">&#xB1;</button>
+        <button type="button" class="num">0</button>
+        <button type="button" class="opr">.</button>
+        <button type="button" id="eqBtn"> =</button>
+      </div>
+    </div>
+    <script src="./calci.js"></script>
+  </body>
+</html>
